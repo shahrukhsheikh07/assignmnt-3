@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(209, 209, 193);
+
+}
+ .content { 
+    display: flex;
+    flex-direction: column;
+    
+    /* border: 2px solid black; */
+ } 
+.formLine-left {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    justify-content: space-around;
+    font-size: larger;
+}
+.formLine-right {
+    display: flex;
+    flex-direction: column;
+    margin: -12% 60%;
+    height: 100%;
+    width: 11%; 
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+table, th,  tr  {
+  margin: 5% 25%;
+  background-color: white;
+  }
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(232, 9, 9);
+    border-radius: 17px;
+    border: none;
+    height: 18%;
+    width: 8%;
+    margin: 7% 44%;
+}
+.btn:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.deleteButton {
+  color: black;
+  background-color: darkgrey;
+}  .title {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  *input {
+    width: 100%;
+    height: 100%;
+  }
+  *select {
+    width: 100%;
+    height: 10%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 1%;
+  }
+  #type {
+    height: 15%;
+    width: 25%;
+    background-color:whitesmoke;
+  }
+  #name {
+    height: 15%;
+    width: 25%;
+    background-color:whitesmoke;
+  }
+  #currency {
+    height: 15%;
+    width: 25%;
+    background-color:whitesmoke;
+  }
+  #date {
+    height: 15%;
+    width: 120%;
+    background-color:whitesmoke;
+  }
+  #amount {
+    height: 15%;
+    width: 120%;
+    background-color:whitesmoke;
+  }
+  #friend {
+    height: 15%;
+    width: 120%;
+    background-color:whitesmoke;
+  }
+   

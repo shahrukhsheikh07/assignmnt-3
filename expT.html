@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp Manager</title>
+    <link rel="stylesheet" href="expT.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Expense Manager</h1></div>
+        <section class="content"> 
+            <div class="header"><h2 >Add a new item </h2></div>
+            <div class="form">
+                <form id="expForm">
+                    <div class="formLine-left">
+                        <span for="type">Type:</span>
+                        <select id="type">
+                            <option value="PaymentMethod">Payment Method</option>
+                            <option value="PhonePe">PhonePe</option>
+                            <option value="Paytm">Paytm</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span for="name" >Name:</span>
+                        <input type="text" id="name" placeholder="What did you spend on?">
+                        
+
+                        <span for="currency">Currency:</span>
+                        <select id="currency">
+                            <option value="Select">Select Currency</option>
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                            <option value="CAD">CAD</option>
+                        </select>
+                    </div>
+                    <div class="formLine-right">
+                        <span for="friend">Add a Friend:</span>
+                        <select id="friend">
+                            <option value="friends">Friends List</option>
+                            <option value="Ashish">Ashish</option>
+                            <option value="Shubham">Shubham</option>
+                            <option value="Ayushi">Ayushi</option>
+                        </select>
+                        
+                        <span for="date" >Date:</span>
+                        <input type="date" id="date">
+                   
+                        <span for="amount" >Amount</span>
+                        <input type="text" id="amount" placeholder="What did you spend on?">
+                    </div>
+                    <button type="submit"  class="btn">Add a new expense</button>
+                </form>
+            </div>
+        </section>
+
+        
+
+        <section class="footer">
+            <table class="table">
+                <th>
+                    <tr>
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th>Friend</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Currency</th>
+                        <th>Delete Item</th>
+                    </tr>
+                </th>
+                <tbody id="expenseTable"></tbody>
+            </table>
+        </section>
+
+    </div>
+    
+
+
+
+    <script src="expT.js"></script>
+</body>
+</html>
